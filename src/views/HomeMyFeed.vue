@@ -1,11 +1,10 @@
 <template>
-  <div class="home-my-feed">
+  <div class="home-my-feed container">
     <RwvArticleList type="feed" />
   </div>
 </template>
 <script>
   import RwvArticleList from '@/components/ArticleList'
-
   export default {
     name: 'rwv-home-my-feed',
     components: {
